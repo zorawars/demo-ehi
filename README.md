@@ -7,6 +7,9 @@ Run the below maven command to run all tests, generate the OpenAPI YAML file usi
 $ ./mvnw clean verify
 ```
 
+### Code Coverage
+The project uses Jacoco for code coverage. After running the maven `verify` command the Jacoco report will be available under `target/code-coverage`. View the report `target/code-coverage/index.html` in a browser.
+
 ## Running the application locally
 Use the maven `spring-boot-plugin` to run the application locally.
 ```shell
